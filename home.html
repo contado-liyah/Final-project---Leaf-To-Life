@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaf To Life</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #9b7b39;
+        }
+
+        /* Navigation */
+        nav {
+            padding: 20px 0px 0px;
+            text-align: center;
+            font-size: 20px;
+        }
+
+        nav a {
+            color: rgb(0, 0, 0);
+            text-decoration: underline;
+            margin: 0 15px;
+            gap: 5px;
+            font-weight: bold;
+        }
+
+        /* Header */
+        header {
+           position: relative;
+           max-inline-size: 100%;
+            margin: 10px 40px;
+        }
+
+        header img {
+           display: block;
+            height: auto;
+            max-inline-size: 100%;
+    
+            
+        }
+
+        header h1 {
+            position: absolute;
+            display: flex;
+            top: 20%;
+            bottom: 2%;
+            left: 24%;
+            transform: translate(-50%, -50%);
+            text-align: left;
+            color: #d1af47;
+            font-family: sans-serif;
+            font-weight: bolder;
+            font-size: 10vw;
+            line-height: 1em;
+            
+        }
+
+        
+
+        /* Main Content */
+
+        main {
+            padding: 5px 0px;
+        }
+
+        /*content 1*/
+
+        .content {
+           display: flex;
+            flex-wrap: wrap;
+            padding: 40px;
+            gap: 20px;
+            
+        }
+
+        .image-box {
+            
+           flex: 1;
+           min-width: 250px;
+            
+        }
+
+        .image-box img {
+            width: 100%;
+            height: auto;
+            display: block;      
+        }
+
+    
+
+         .text-box {
+           flex: 2;
+            min-width: 300px;
+            font-size: 1em;
+            text-align: justify;
+
+        }
+
+
+
+        /*Content 2*/
+
+
+        .content-two {
+            display: flex;
+            flex-wrap: wrap-reverse;
+            padding: 40px;
+            margin-bottom: 40px;
+            background-color: #d1af47;
+            gap: 20px
+        }
+
+        .left-image {
+             flex: 1;
+            min-width: 250px;
+        }
+
+        
+        .left-image img{
+             width: 100%;
+            height: auto;
+            display: block;
+            
+        }
+
+
+        .left-text {
+             flex: 2;
+            min-width: 300px;
+            font-size: 1em;
+            text-align: justify;
+            align-items: center;
+        }
+
+
+    
+        @media (max-width: 768px) {
+
+        .content-two {
+                flex-direction: column; 
+            }
+
+        }
+
+
+
+
+
+    </style>
+   
+    
+</head>
+<body>
+        <nav>  
+            <a href="./home.html">Home</a> | 
+            <a href="./types.html">Types</a> |
+            <a href="./more_info.html">More Info</a>
+        </nav>
+
+        <header>
+            <img src="Tea_Cup.jpg" alt="Tea-Cup">
+            <h1>Leaf <br> To <br> Life</h1>
+        </header>
+
+
+        <main>
+        <section class="content">
+        <section class="image-box">
+            <img src="tea.jpg" alt="Tea image">
+        </section>
+
+        <section class="text-box">
+            <p>
+                 Herbal teas, or infusions made from various
+                plant parts, have ancient origins rooted in
+                medicinal and cultural traditions across
+                multiple civilizations. Unlike true tea, which
+                comes from the Camellia sinensis plant,
+                herbal teas are made from edible flowers,
+                fruits, roots, and leaves. It is also rooted in
+                China where they were first used for their
+                medicinal properties, a practice that spread
+                through ancient Egypt, Greece, and later to
+                the rest of the world. The earliest
+                documented evidence comes from the Tang
+                Dynasty in China around 720 AD, as well as
+                ancient Egyptian records of peppermint
+                leaves. These infusions were valued not
+                only for physical healing but also for
+                spiritual and mental well-being before
+                becoming popular for enjoyment and
+                health benefits in modern times.
+            </p>
+        </section>
+    </section>
+
+    <section class="content-two">
+        <section class="left-image">
+            <img src="Herbal-Teas.jpg" alt="Herbs Image" >
+        </section>
+
+        <section class="left-text">
+            <p>
+                According to legend, the practice of
+            drinking herbal infusions began in
+            ancient China with Emperor Shen Nong,
+            who discovered tea when leaves fell into
+            his boiling water around 2737 BCE. The
+            earliest historical records and treatises,
+            such as "Medical Secrets of an Official"
+            by Wang Tao (720 AD), describe herbal
+            teas for their healing properties. Today,
+            herbal teas are consumed globally for
+            their taste, aroma, and potential health
+            benefits, ranging from physical wellness
+            to mental clarity and spiritual awareness.
+            </section>
+    </section>
+    </main>
+
+ 
+
+</body>
+</html>
