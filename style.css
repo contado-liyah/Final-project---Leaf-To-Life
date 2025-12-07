@@ -83,7 +83,7 @@ main {
 
     
 
-.text-one {
+p {
     flex: 2;
     min-width: 300px;
     font-size: 1.5em;
@@ -118,7 +118,7 @@ main {
 }
 
 
-.text-two {
+h6 {
     flex: 2;
     min-width: 300px;
     font-size: 1.5em;
@@ -132,5 +132,6 @@ main {
     .content-two {
             flex-direction: column; 
         }
+
 
     }
