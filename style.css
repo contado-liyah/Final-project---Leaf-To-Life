@@ -41,8 +41,7 @@ body {
 .header-one h1 {
     position: absolute;
     display: flex;
-    top: 33%;
-    bottom: 2%;
+    top: 54%;
     left: 24%;
     transform: translate(-50%, -50%);
     text-align: left;
@@ -289,6 +288,7 @@ h6 {
    
    
         
+
 
 
 
