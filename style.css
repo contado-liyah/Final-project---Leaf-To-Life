@@ -1,5 +1,5 @@
 
-/* For First Page */
+/* First PAGE */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -7,14 +7,16 @@ body {
     background-color: #9b7b39;
 }
 
-/* Navigation */
-nav {
+ /* Header Home Page */
+
+ /* Navigation Bar */
+.nav-one {
     padding: 20px 0px 10px;
     text-align: center;
     font-size: 20px;
 }
 
-nav a {
+.nav-one a {
     color: rgb(0, 0, 0);
     text-decoration: underline;
     margin: 0 15px;
@@ -22,21 +24,21 @@ nav a {
     font-weight: bold;
 }
 
-/* Header */
-header {
+/* Header Section */
+.header-one {
     position: relative;
     max-inline-size: 100%;
     margin: 10px 40px;
 }
 
-header img {
+.header-one img {
     display: block;
     height: auto;
     max-inline-size: 100%;
     
 }
 
-header h1 {
+.header-one h1 {
     position: absolute;
     display: flex;
     top: 33%;
@@ -53,14 +55,14 @@ header h1 {
 }
 
         
+/* Main Content Home Page */
 
-/* Main Content */
 
 #main-home {
     padding: 5px 0px;
 }
 
-/*content 1*/
+/* first content section */
 
 .content {
     display: flex;
@@ -94,8 +96,8 @@ p {
 
 
 
- /*Content 2*/
-
+ 
+/* second content section */
 
 .content-two {
     display: flex;
@@ -135,3 +137,161 @@ h6 {
         }
     }
 
+
+
+
+
+/* SECOND PAGE */
+
+.page-types {
+    font-family: Arial, sans-serif;
+    background-color: #9b7b39;
+}
+
+.nav-two {
+    padding: 20px 0px 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.nav-two a {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    margin: 0 15px;
+    gap: 5px;
+    font-weight: bold;
+}
+
+.header-two {
+    position: relative;
+    margin: 10px 20px 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    height: 150px;
+}
+
+
+.header-two h1 {
+    position: absolute;
+    
+    justify-content: center;
+    min-width: 100%;
+    margin:  0px 30px 20px 0px;
+    color: #d1af47;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 6vw;
+    font-style: italic;
+    border: black solid 4px;
+}
+
+/* Main Content Types Page */
+
+   .container {
+            margin: 50px 20px 20px;      
+            padding: 0px 20px;
+           
+            
+        }
+
+     .tea-section {
+            
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 5px;
+            padding: 0px 15px 0px;
+            background-color: #d1af47;
+            border-radius: 10px;
+        }
+
+        .tea-image {
+            margin: 20px  auto;
+            min-width: 300px;
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .text-content p {
+            font-weight: bold;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+        }
+
+/*one*/
+        .tea-section {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 5px;
+            padding: 0px 15px 0px;
+        }
+
+        .tea-section h1 {
+            color: black;
+            text-align: center;
+            text-decoration: underline;
+            padding-bottom: 5px;
+            margin-left: 10px;
+        }
+
+           
+
+
+        .text-content {
+            padding: 0 20px;  
+            color: black;
+        }
+
+        .left .tea-image {
+            order: -1;
+           
+        }
+
+/*two*/
+        
+
+        .tea-section h1 {
+            color: black;
+            text-decoration: underline;
+            padding-bottom: 5px;
+            margin-top: 0;
+        }
+
+     
+
+        .text-content {
+            padding: 0 20px;
+            line-height: 1.4;
+            color: black;
+        }
+
+        .right .tea-image {
+            order: 1;
+            margin-left: 20px;
+            margin-right: 0;
+        }
+
+
+@media (max-width: 700px) {
+
+    .right, .left {
+            flex-direction: column;
+            align-items: center;
+        }
+
+    .tea-image {
+        margin: 10px 0;
+        order: 0; 
+        max-width: 90%;
+        min-width: 0;
+    }
+
+    .left .tea-image {
+        order: 1;
+    }
+
+
+}
+
+   
+   
+        
