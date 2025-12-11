@@ -218,12 +218,7 @@ h6 {
         }
 
 /*one*/
-        .tea-section {
-            display: flex;
-            align-items: flex-start;
-            margin-bottom: 5px;
-            padding: 0px 15px 0px;
-        }
+       
 
         .tea-section h1 {
             color: black;
@@ -295,6 +290,7 @@ h6 {
    
    
         
+
 
 
 
