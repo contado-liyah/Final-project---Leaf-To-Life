@@ -176,13 +176,13 @@ h6 {
     
     justify-content: center;
     min-width: 100%;
-    margin:  0px 30px 20px 5px;
+    margin:  0px 30px 20px 0px;
     color: #d1af47;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
     font-size: 6vw;
     font-style: italic;
-    border: black solid 8px;
+    border: black solid 4px;
 }
 
 /* Main Content Types Page */
@@ -218,8 +218,7 @@ h6 {
         }
 
 /*one*/
-       
-
+        
         .tea-section h1 {
             color: black;
             text-align: center;
@@ -266,7 +265,7 @@ h6 {
         }
 
 
-@media (max-width: 675px) {
+@media (max-width: 650px) {
 
     .right, .left {
             flex-direction: column;
@@ -290,8 +289,3 @@ h6 {
    
    
         
-
-
-
-
-
