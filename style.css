@@ -207,7 +207,7 @@ h6 {
         .tea-image {
             margin: 20px  auto;
             min-width: 300px;
-            max-width: 100%;
+            max-width: 200%;
             height: auto;
             display: block;
         }
@@ -289,3 +289,4 @@ h6 {
    
    
         
+
