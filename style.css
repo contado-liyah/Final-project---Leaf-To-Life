@@ -41,7 +41,7 @@ body {
 .header-one h1 {
     position: absolute;
     display: flex;
-    top: 33%;
+    top: 38%;
     bottom: 2%;
     left: 24%;
     transform: translate(-50%, -50%);
@@ -205,11 +205,18 @@ h6 {
         }
 
         .tea-image {
-            margin: 20px  auto;
-            min-width: 300px;
+            margin: 20px auto;
+            min-width: 0;
+            display: block;
+            flex: 0 0 clamp(180px, 30%, 360px);
             max-width: 100%;
+        }
+
+        .tea-image img {
+            width: 100%;
             height: auto;
             display: block;
+            object-fit: cover;
         }
 
         .text-content p {
