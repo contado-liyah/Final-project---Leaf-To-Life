@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <!--header -->
+    <header>
+        <nav class="nav-three">  
+            <a href="./index.html">Home</a> | 
+            <a href="./types.html">Types</a> |
+            <a href="./more_info.html">More Info</a>
+        </nav>
+
+    </header>
+
+    <!--main content -->
+    <main class="lead">
+
+        <!-- first section !-->
+
+         <section class="article inleft">
+            <section class="link-image">
+            <img  src="Bastyr.jpg" alt="Interview Image">
+            </section>
+
+            <section class="text-content">
+                
+                <p>Dr. Dhaval Dhru has discussed how herbal teas can be used as a complementary approach to traditional Western medicine for managing certain minor ailments, like colds. He emphasized that they are not a replacement for medical care but can work alongside it.
+                <p><a href="https://www.youtube.com/watch?v=zrdQXoJM8kU&pp=ygUhZHIuIGRoYXZhbCBkaHJ1IGFib3V0IGhlcmJhbCB0ZWFz">>Click For More Info.</a></p>                
+            </section>
+        </section>
+
+        <!-- second section !-->
+
+        <section class="article inright">
+            <section class="text-content">                
+                <p>An article published by the Cleveland Clinic cites health experts regarding the benefits of various teas. They state, "Studies show that ginger naturally combats nausea, making it a go-to remedy if you're dealing with morning sickness during pregnancy, notes Czerwony." The article also mentions ginger's ability to help calm indigestion and ease other stomach distress.</p>                
+                <p><a href="https://health.clevelandclinic.org/teas-for-health">>Click For More Info.</a></p>
+            </section>
+
+            <section class="link-image">
+            <img  src="Cleveland.jpg" alt="Article One">
+            </section>
+        </section>
+
+        <!-- third section !-->
+        <section class="article inleft">
+            <section class="link-image">
+            <img  src="Harvard.jpg" alt="Article Two">
+            </section>
+
+            <section class="text-content">
+                <p>In an article on the health benefits of herbal teas, Harvard Health experts cite the potential medicinal effects of tisanes, mentioning that chamomile tea has calming properties, ginger tea is effective against nausea and inflammation, and hibiscus tea may help lower blood pressure. However, the article includes important disclaimers about potential side effects and drug interactions, such as with blood thinners and diuretics.</p>
+
+                 <p><a href="https://www.health.harvard.edu/nutrition/the-health-benefits-of-3-herbal-teas">>Click For More Info.</a></p>                
+            </section>
+        </section>
+        
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <h1>CONTACT US FOR MORE INFORMATION</h1>
+        
+        <p>Contact:<span style="text-decoration: underline;">0912-543-2334</span></p>
+        
+        <p>Email:<span style="text-decoration: underline;"><a href="mailto:info@tea.com">leaftolife@gmail.com</a></span></p>
+        
+
+    </footer>
+    
+</body>
+</html>
