@@ -284,10 +284,10 @@ p {
 
 }
 
- /* Footer Section */
+   /* Footer Section */
 
    .nav-three {
-    padding: 30px 0px 30px;
+    padding: 20px 0px 10px;
     text-align: center;
     font-size: 20px;
 }
@@ -314,13 +314,12 @@ p {
             padding: 0px 15px 0px;
             gap: 20px;
             border-radius: 10px;
-            background-color: #e7cc7b;
         }
 
         .link-image {
             margin: 20px  auto;
             min-width: 0;
-            max-width: 100%;
+            max-width: 360px;
             display: block;
             flex: 1 1 40%;
         }
@@ -339,6 +338,7 @@ p {
         .link-image img {
             width: 100%;
             height: auto;
+            max-height: 300px;
             display: block;
             object-fit: cover;
         }
@@ -416,9 +416,13 @@ footer p {
     padding-bottom: 20px;
 }
 
+
+        
+
    
    
         
+
 
 
 
