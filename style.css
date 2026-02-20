@@ -287,7 +287,7 @@ p {
    /* Footer Section */
 
    .nav-three {
-    padding: 32px 0px 25px;
+    padding: 31px 0px 20px;
     text-align: center;
     font-size: 20px;
 }
@@ -303,30 +303,40 @@ p {
 /* Main Content More Info Page */
 
 .lead {
-    margin: 50px 100px 20px;
+  
+    margin: 50px auto 20px;
+    padding: 0 6%;
+    max-width: 1100px;
 }
 
 
 .article {
             display: flex;
             align-items: flex-start;
+            justify-content: space-between;
             margin-bottom: 25px;
             padding: 0px 15px 0px;
             gap: 20px;
+            border: solid #5a381c;
             border-radius: 10px;
         }
 
         .link-image {
-            margin: 20px  auto;
+            margin: 20px 0;
             min-width: 0;
-            max-width: 360px;
             display: block;
-            flex: 1 1 40%;
+            flex: 0 0 clamp(180px, 28%, 360px);
+            max-width: 100%;
         }
 
         .text-content p {
             font-weight: bold;
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+        }
+
+        .article .text-content p {
+            font-size: clamp(1rem, 1.8vw, 1.25rem);
+            line-height: 1.6;
         }
 
         .article .text-content {
@@ -342,97 +352,5 @@ p {
             display: block;
             object-fit: cover;
         }
-
-/*one*/
-        .text-content {
-            padding: 0 20px;  
-            color: black;
-        }
-
-        .inleft .link-image {
-            order: -1;
-           
-        }
-
-/*two*/
-        .text-content {
-            padding: 0 20px;
-            line-height: 1.4;
-            color: black;
-        }
-
-        .inright .link-image {
-            order: 1;
-            margin-left: 20px;
-            margin-right: 0;
-        }
-
-
-        @media (max-width: 650px) {
-
-    .inright, .inleft {
-            flex-direction: column;
-            align-items: center;
-        }
-
-    .link-image {
-        margin: 10px 0;
-        order: 0; 
-        max-width: 90%;
-        min-width: 0;
-    }
-
-
-    .inleft .link-image,
-    .inright .link-image {
-        order: -1;
-    }
-
-  
-    
-}
-
-
-/* Footer Styles */
-
- footer {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #d1af47;
-    font-weight: bold;
-    
-}
-
-footer h1 {
-    color: #5a381c;
-    text-decoration: underline;
-    padding: 20px 0px 5px;
-}
-
-footer p {
-    text-align: center;
-   
-    font-size: 1.2em;
-    padding-bottom: 20px;
-}
-
-
-        
-
-   
-   
-        
-
-
-
-
-
-
-
-
-
-
-
-
 
 
