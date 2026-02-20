@@ -284,9 +284,141 @@ h6 {
 
 }
 
+ /* Footer Section */
+
+   .nav-three {
+    padding: 20px 0px 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.nav-three a {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    margin: 0 15px;
+    gap: 5px;
+    font-weight: bold;
+}
+
+/* Main Content More Info Page */
+
+.lead {
+    margin: 50px 100px 20px;
+}
+
+
+.article {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 25px;
+            padding: 0px 15px 0px;
+            gap: 20px;
+            border-radius: 10px;
+        }
+
+        .link-image {
+            margin: 20px  auto;
+            min-width: 0;
+            max-width: 100%;
+            display: block;
+            flex: 1 1 40%;
+        }
+
+        .text-content p {
+            font-weight: bold;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+        }
+
+        .article .text-content {
+            flex: 1 1 60%;
+            min-width: 0;
+            padding: 10px 20px;
+        }
+
+        .link-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+            object-fit: cover;
+        }
+
+/*one*/
+        .text-content {
+            padding: 0 20px;  
+            color: black;
+        }
+
+        .inleft .link-image {
+            order: -1;
+           
+        }
+
+/*two*/
+        .text-content {
+            padding: 0 20px;
+            line-height: 1.4;
+            color: black;
+        }
+
+        .inright .link-image {
+            order: 1;
+            margin-left: 20px;
+            margin-right: 0;
+        }
+
+
+        @media (max-width: 650px) {
+
+    .inright, .inleft {
+            flex-direction: column;
+            align-items: center;
+        }
+
+    .link-image {
+        margin: 10px 0;
+        order: 0; 
+        max-width: 90%;
+        min-width: 0;
+    }
+
+
+    .inleft .link-image,
+    .inright .link-image {
+        order: -1;
+    }
+
+  
+    
+}
+
+
+/* Footer Styles */
+
+ footer {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #d1af47;
+    font-weight: bold;
+    
+}
+
+footer h1 {
+    color: #5a381c;
+    text-decoration: underline;
+    padding: 20px 0px 5px;
+}
+
+footer p {
+    text-align: center;
+   
+    font-size: 1.2em;
+    padding-bottom: 20px;
+}
+
    
    
         
+
 
 
 
